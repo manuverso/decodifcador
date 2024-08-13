@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+
+        <img class="logo__cabecalho" src="./assets/logoalura.png" alt="logo da alura">
+
+    </header>
+
+    <main>
+        <section class="section__input">
+        <textarea class="text__area" cols="41" rows="6" placeholder="Digite seu texto aqui: "></textarea>
+        
+        <div class="dica">
+            <h6>Use apenas letras minúsculas e sem acento.</h6>
+        </div>
+        
+        <div class="botoes">
+            <button class="btn__encriptar" onclick="btnEncriptar()">Criptografar</button>
+            <button class="btn__desencriptar" onclick="btnDesencriptar()">Descritografar</button>
+        </div>
+
+        </section>
+
+        <section class="section__output">
+            <textarea class="resultado" cols="20" rows="10"></textarea>
+            <button class="btn__copiar">Copiar</button>
+        </section>  
+    </main>
+
+    <footer>
+        Desenvolvido por 
+        <a class="link_meugit" href="https://github.com/manuverso"> 
+            <img class="logo__github" src="assets/github.png" alt="logo-github"/>  
+            Emanuelle Santana ©
+        </a> 
+    </footer>
+
+    
+    <script src="encoding.js"></script>
+</body>
+</html>
