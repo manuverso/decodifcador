@@ -1,10 +1,10 @@
 <h1>Decodificador de texto</h1>
 <h2> 📝 Sobre: </h2>
-<p>Este projeto foi elaborado como conclusäo da formaçäo Iniciante em Programaçäo do projeto ONE em parceria com a Alura. </p> 
+<p>Este projeto foi elaborado como conclusão da formação Iniciante em Programação do projeto ONE em parceria com a Alura. </p> 
 
 ## 🏷️ Funcionalidades: 
-<p>→Codificaçäo do texto;</p>
-<p>→Descodificaçäo;</p> 
+<p>→Codificação do texto;</p>
+<p>→Descodificação;</p> 
 <p></p>
 
 ## 🕹️ Como utilizar:
